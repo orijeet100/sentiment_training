@@ -110,7 +110,7 @@ class SentimentModelTrainer:
 
         # Set up MLflow
         mlflow.set_tracking_uri(mlflow_tracking_uri)
-        mlflow.set_experiment("sentiment_analysis_bert")
+        mlflow.set_experiment("sentiment_analysis_bert_new")
 
         logger.info(f"Using device: {self.device}")
         logger.info(f"MLflow tracking URI: {mlflow_tracking_uri}")
