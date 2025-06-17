@@ -1,0 +1,66 @@
+# Core data processing and ML libraries
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+
+# Text processing and NLP
+nltk>=3.7
+textblob>=0.17.1
+spacy>=3.4.0
+transformers>=4.21.0
+torch>=1.12.0
+tokenizers>=0.13.0
+
+# Data visualization and analysis
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.10.0
+wordcloud>=1.9.0
+
+# AWS and SageMaker integration
+boto3>=1.26.0
+botocore>=1.29.0
+awscli>=1.27.0
+sagemaker>=2.100.0
+
+# Model serialization and deployment
+joblib>=1.1.0
+pickle-mixin>=1.0.2
+
+# Development and testing
+pytest>=7.1.0
+pytest-cov>=3.0.0
+black>=22.6.0
+flake8>=5.0.0
+mypy>=0.971
+
+# Logging and monitoring
+loguru>=0.6.0
+
+# Configuration management
+python-dotenv>=0.20.0
+pyyaml>=6.0
+
+# Data validation
+pydantic>=1.10.0
+
+# Progress bars and utilities
+tqdm>=4.64.0
+
+# Jupyter notebook support (for development)
+jupyter>=1.0.0
+ipykernel>=6.15.0
+ipywidgets>=7.7.0
+
+# Web framework (if needed for local testing/API)
+fastapi>=0.78.0
+uvicorn>=0.18.0
+
+# Additional text preprocessing
+regex>=2022.7.9
+contractions>=0.1.73
+chardet>=5.0.0
+
+# Model evaluation metrics
+scipy>=1.9.0
+mlflow
